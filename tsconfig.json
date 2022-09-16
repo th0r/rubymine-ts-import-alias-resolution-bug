@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "files": [
+    "app/app-with-sync-import.ts"
+  ],
+  "compilerOptions": {
+    "types": [],
+    "moduleResolution": "node",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["shared/*"]
+    }
+  }
+}
